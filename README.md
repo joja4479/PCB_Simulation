@@ -6,6 +6,9 @@ This project simulates a PCB (Printed Circuit Board) assembly process, including
 
 ## 📦 Project Structure
 
+<!-- TREEVIEW START -->
+<!-- TREEVIEW END -->
+
 pcb_sim_backup/
 ├── client/ # Java console client
 ├── server/ # Spring Boot server

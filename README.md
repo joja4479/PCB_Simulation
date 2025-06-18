@@ -67,7 +67,6 @@ pcb_sim_backup/
 
 ### Server
 
-```bash
 cd server
 mvn clean install
 java -jar target/server-1.0-SNAPSHOT.jar
@@ -84,6 +83,7 @@ java -cp target/classes:~/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2
 
 Follow the prompt to select a PCB type.
 
+---
 
 ## 🗄 Viewing Stored Data
 
@@ -95,6 +95,8 @@ sqlite> SELECT * FROM simulation_results;
 ### Option 2: GUI
 
 Use DB Browser for SQLite to inspect and query the database visually.
+
+---
 
 ## 🧼 Notes
 

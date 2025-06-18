@@ -101,9 +101,7 @@ Use DB Browser for SQLite to inspect and query the database visually.
 
 ## 🧼 Notes
 
-    The database is created in the server's working directory as simulation.db.
-
-    The client must be run after the server is up and listening.
-
-    The client automatically posts the simulation results to the server.
+- The database is created in the server's working directory as simulation.db.
+- The client must be run after the server is up and listening.
+- The client automatically posts the simulation results to the server.
 

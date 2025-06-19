@@ -69,7 +69,9 @@ pcb_sim_backup/
 ### Server
 
 cd server
+
 mvn clean install
+
 java -jar target/server-1.0-SNAPSHOT.jar
 
 The server will start on http://localhost:8080
@@ -79,7 +81,9 @@ The server will start on http://localhost:8080
 In a separate terminal:
 
 cd client
+
 mvn clean install
+
 java -cp target/classes:~/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar com.example.client.SimulationClient
 
 Follow the prompt to select a PCB type.
